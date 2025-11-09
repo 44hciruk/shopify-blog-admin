@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Blog Builder",
+  "version": "1.0.0",
+  "description": "Shopifyブログ自動生成ツール",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
